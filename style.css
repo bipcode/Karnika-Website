@@ -1,0 +1,310 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+background: #fff;
+color: #666666;
+font-family: "helvetica", sans-serrif;
+}
+a{
+	color:#18d26e;
+	transition: 0.5s;
+}
+
+p{
+	color:#000000;
+	padding:0;
+	margin: 0 0 30px 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family:"garamound" sans-serrif;
+	font-weight: 400;
+	margin: 0 0 20px 0;
+	padding:0;
+	color:#000;
+}
+
+ul{
+	background-color: #000;
+}
+li:hover{
+	background-color: #000;
+	opacity: 1;
+	font-weight: 700;
+
+}
+
+/*-- header --*/
+#header{
+	padding: 30px 0;
+	height: 92px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	transition: all 0.5s;
+	z-index:997;
+}
+.navbar{
+	background-color: #000;
+}
+
+#header #logo{
+	color: #fff;
+	font-size: 20px;
+	font-weight:800;
+	font-family: "Montserrat", sans-serrif;
+}
+#header #logo:hover{
+	color: #18d26e;
+}
+.carousel-inner {
+	opacity: 0.8;
+}
+.carousel-caption{
+	padding-bottom: 200px;
+}
+.left,.carousel-control{
+	padding-left:5px;
+}
+.owl-nav{
+	display:none;
+}
+.owl-dots{
+	display: none;
+}
+@media only screen and (max-width: 768px) {
+	.carousel{
+	margin-top: 50px;
+	max-height:130px;
+	}
+} 
+#middle{
+	opacity: 0.8;
+}
+#clients h1{
+	color: #292f33;
+	text-shadow: 3px 3px grey;
+	font-weight: 800;
+	font-family: "helvetica", sans-serrif;
+	}
+#clients{
+	background-color: #fff;
+	margin-top: -15px;
+	padding: 10px;
+}
+.clientimg{
+	padding: 5px;
+	margin: 30px;
+}
+.img3{
+	padding-top: 40px;
+}
+.img4{
+	padding-top: 70px;
+}
+.img5{
+	padding-top: 70px;
+}
+#footernote{
+	background-color:#000;
+	margin: 0;
+	padding: 0;
+}
+#footernote p{
+	padding-top: 25px;
+	color:#fff;
+}
+#contactus #companybrand{
+	font-color:#fff;
+}
+#frm label{
+	color: #fff;
+}
+#Team {
+	background: url("img/facts-bg.jpg") center top no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	margin:10px;
+}
+#Team h1{
+	padding-top: 10px; 
+}
+#Team h5{
+	padding-top: 10px; 
+}
+#engineering-disciplines {
+	margin-top: 0px; 
+	padding-top: 10px;
+	background: url("img/1.jpg") center top no-repeat fixed;
+	background-size: cover;
+	position: relative;
+}
+
+#engineering-disciplines p {
+	color: #fff;
+}
+
+#engineering-disciplines h4{
+	color:#fff;
+}
+
+
+#contactus{
+	background: url("img/about-bg bnw.jpg") center top no-repeat fixed;
+	position: relative;
+	background-size: cover;
+	padding-top: 10px;
+	margin: 0;
+}
+#contactus h1 {
+	font-family: "garamound", sans-serrif;
+	font-weight: 900;
+	color: #292f33;
+	text-shadow: 3px 3px grey;
+}
+#contactus p{
+	font-weight: 900;
+}
+
+#services{
+	border-top-style: solid;
+	border-color: #18d26e;
+	/*background: url("img/img10.jpg") center top no-repeat fixed;  */
+	background-size: cover;
+	position: relative;
+	padding: 20px;
+	margin-top: 5px;
+}
+#services h1{
+	color: #292f33;
+	text-shadow: 3px 3px grey;
+	font-weight: 800;
+	font-family: "helvetica", sans-serrif;
+}
+#services h2{
+	color: #333333;
+	font-size: 30px;
+	font-weight: 800;
+	font-family: "helvetica", sans-serrif;
+}
+#aboutus{
+	background: url("img/electric-car.jpg") center top no-repeat fixed;
+	background-size: cover;
+	position: relative;
+	border-style: 10px;
+	padding: 20px;
+
+}
+#aboutus h1 {
+	color: #292f33;
+	text-shadow: 3px 3px grey;
+	font-weight: 800;
+	font-family: "helvetica", sans-serrif;
+}
+#aboutus p{
+	font-weight: 400;
+	text-align: justify;
+}
+.social i{
+font-size: 2rem;
+padding: 5px;
+}
+
+#aidescribe h2{
+padding-top: 50px;
+color: #141823;
+}
+#aidescribe1 h2{
+padding-top: 50px;
+color: #141823;
+}
+
+#ai1{
+	padding-left: 0;
+}
+#ai2{
+	padding-right: 0;
+}
+
+.title{
+	padding-top: 10px;
+}
+#Team .section-header h1{
+	color: #292f33;
+	text-shadow: 3px 3px grey;
+	font-weight: 800;
+	font-family: "helvetica", sans-serrif;
+}
+#engineering-disciplines{
+	box-shadow: 10px 10px 20px black;
+}
+.image{
+	box-shadow: 10px 10px 10px grey;
+}
+#footer-icon i{
+font-size: 2.5rem;
+padding: 20px;
+}
+
+#footer-icon p{
+	font-size: 0.5em;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	text-align: left;
+}
+
+
+#form-bg{
+	padding: 10px;
+	background: grey;
+	opacity: 0.9;
+	border-radius: 10px;
+}
+.mem{
+	box-shadow: 2px 2px 10px grey;
+}
+#teamphoto{
+	padding:10px;
+}
+#first{
+	background: url("img/img5-1.jpeg") center top no-repeat fixed;
+	background-size: cover;
+}
+#second{
+	background: url("img/img3.jpg") center top no-repeat fixed;
+	background-size: cover;
+}
+#third{
+	background: url("img/img12.jpg") center top no-repeat fixed;
+	background-size: cover;
+}
+#fourth{
+	background: url("img/img17.jpg") center top no-repeat fixed;
+	background-size: cover;	
+}
+#fifth{
+	background: url("img/img1.png") center top no-repeat fixed;
+	background-size: cover;	
+}
+#sixth{
+	background: url("img/hut1.jpg") center top no-repeat fixed;
+	background-size: cover;	
+}
+#ai1 img {
+	max-height: 350px;
+	max-width: 350px;
+}
+#ai2 img {
+	max-height: 350px;
+	max-width: 350px;
+}
+#contactus a{
+	color: #0d496e;
+	text-decoration: none;
+}
+.btn {
+	margin: 0 0 10px 0;
+}
